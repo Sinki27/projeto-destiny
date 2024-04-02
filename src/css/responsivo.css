@@ -11,7 +11,7 @@
     .conteudo {
         justify-content: flex-end;
         left: 0;
-        top: -20%;
+        top: -15%;
         max-width: 100vw;
         padding: 30px;
     }
@@ -52,7 +52,7 @@
     }
     
     .conteudo {
-        top: -30%;
+        top: -18%;
     }
 
     .conteudo .nome-personagem {
@@ -61,7 +61,7 @@
 
     .botoes {
         padding: 20px;
-        top: -20%;
+        top: -8%;
     }
     
     .botoes .botao img {
