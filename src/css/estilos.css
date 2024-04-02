@@ -10,7 +10,7 @@ main::after {
     left: 0;
     min-height: 100vh;
     width: 80vw;
-    background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+    background: linear-gradient(-233deg, #000 30%, rgba(0, 0, 0, 0) 75%) no-repeat;
 }
 
 main .personagem {
@@ -24,7 +24,7 @@ main .personagem.selecionado {
 
 main .personagem .imagem {
     width: 100%;
-    height: 100%;
+    height: 112%;
     object-fit: cover;
 }
 
@@ -48,18 +48,31 @@ main .personagem .imagem {
     margin-bottom: 20px;
 }
 
+.conteudo .nome-descricao {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: "Secular One";
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
 .conteudo .descricao {
     color: #ffffff;
     font-family: "Rubik";
+    text-align: justify;
     line-height: 24px;
 }
 
 .conteudo .logo {
-    background-image: url("../img/one-piece-logo.png");
+    background-image: url("../img/destiny_logo.png");
+    background-color: #ffffff;
+    opacity: 0.6;
     background-size: cover;
-    height: 100px;
+    height: 120px;
     width: 230px;
     margin-bottom: 35px;
+    border: 4px solid;
+    border-radius: 20px;
 }
 
 .botoes {
@@ -84,7 +97,8 @@ main .personagem .imagem {
 }
 
 .botoes .botao img {
-    border-radius: 50%;
+    border-radius: 70%;
+    max-width:90px;
 }
 
 .botoes .botao.selecionado {
